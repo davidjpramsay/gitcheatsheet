@@ -2,29 +2,29 @@
 
 ## Download Latest Files
 
-```zsh
+```sh
 git fetch
 ```
 
-```zsh
+```sh
 git merge origin main
 ```
 
 ##  Create a Branch
-```zsh
+```sh
 git checkout -b new_branch_name
 ```
 
 ## Make a Commit
 
 ### Add all
-```zsh
+```sh
 git add .
 ```
 
 ### Add Single File
 Use git status and tab to help indentify path.
-```zsh
+```sh
 git add dir_name/file_name
 ```
 
@@ -32,33 +32,31 @@ git add dir_name/file_name
 
 ### Push
 If first push then ```git push --up-stream origin branch_name```. Branch must match current branch.
-```zsh
+```sh
 git push
 ```
 
 ### Open Pull Request
-```zsh
-
-```
+github website and do shit.
 
 ## Pull a Remote Branch
 
 ### Fetch Remote References
 
-```zsh
+```sh
 git fetch
 ```
 ### View Remote Branches
-```zsh
+```sh
 git branch -r
 ```
 
 ### Check Out Branch
-```zsh
+```sh
 git checkout remote_branch_name
 ```
 
 ### Check Current Branch
-```zsh
+```sh
 git branch
 ```
